@@ -1,0 +1,99 @@
+﻿@{
+	ViewData["Title"] = "PatientAppointment";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+
+<div class="main-content">
+
+	<!-- content -->
+	<div class="container-fluid content-top-gap">
+
+		<!-- breadcrumbs -->
+		<nav aria-label="breadcrumb" class="mb-4">
+			<ol class="breadcrumb my-breadcrumb">
+				<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Forms</li>
+			</ol>
+		</nav>
+
+		<!-- forms 2 -->
+		<div class="card card_border py-2 mb-4">
+			<div class="card-body">
+				<form action="#" method="post">
+					<div class="form-row">
+						<div class="form-group col-md-4">
+							<label for="inputState" class="input__label">patient Name</label>
+							<select id="ddlPatientName"  class="form-control">
+							</select>
+						</div>
+						<div class="form-group col-md-4">
+							<label for="inputState" class="input__label">Medicine pres</label>
+							<select id="ddlMedPres" multiple="multiple" class="form-control input-style select2">
+							</select>
+
+						</div>
+						<div class="form-group col-md-4">
+							<label for="inputState" class="input__label">Medicine Status</label>
+							<select id="inputState" class="form-control">
+								<option>Active</option>
+								<option>Inactive</option>
+							</select>
+						</div>
+						<div class="form-group col-md-4">
+							<label for="inputState" class="input__label">Daignostic pres</label>
+							<select id="ddldaigpres" multiple="multiple" class="form-control input-style select2">
+								
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputAddress" class="input__label">valid upto</label>
+						<input type="date" class="form-control input-style" id="inputAddress"
+							   placeholder="date">
+					</div>
+					<div class="form-group">
+						<label for="inputAddress2" class="input__label">Address 2</label>
+						<input type="text" class="form-control input-style" id="inputAddress2"
+							   placeholder="Apartment, studio, or floor">
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="inputCity" class="input__label">Doctor fess</label>
+							<input type="text" class="form-control input-style" id="inputCity">
+						</div>
+						<div class="form-group col-md-4">
+							<label for="inputState" class="input__label">doctor remark</label>
+							<input type="text" class="form-control input-style" id="inputCity">
+						</div>
+						<div class="form-group col-md-2">
+							<label for="inputZip" class="input__label">status</label>
+							<input type="text" class="form-control input-style" id="inputZip">
+						</div>
+					</div>
+
+					<button type="submit" class="btn btn-primary btn-style mt-4">Submit</button>
+				</form>
+			</div>
+		</div>
+		<!-- //forms 2 -->
+		<!-- jQuery library -->
+
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<!-- Include Select2 JS from CDN -->
+		<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+		<script>
+			$(document).ready(function () {
+				// Initialize Select2 on the select element
+				$('#ddlMedPres').select2();
+				$('#ddldaigpres').select2();
+				
+			});
+		</script>
+
+		<script src="~/content/PatientAppointment.js"></script>
+		

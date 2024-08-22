@@ -1,0 +1,102 @@
+﻿@{
+    ViewData["Title"] = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ 
+<div class="main-content">
+
+    <!-- content -->
+    <div class="container-fluid content-top-gap">
+
+        <!-- breadcrumbs -->
+        <nav aria-label="breadcrumb" class="mb-4">
+            <ol class="breadcrumb my-breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Forms</li>
+            </ol>
+        </nav>
+        <!-- //breadcrumbs -->
+        <!-- forms 2 -->
+        <div class="card card_border py-2 mb-4">
+            <div class="card-body">
+                <form action="Medicine_master" method="post">
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputAddress" class="input__label">Category</label>
+                            <select name="MedicineCategory" id="ddlCategory" class="form-control">
+                            </select>
+                            
+
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4" class="input__label">Medicine Name</label>
+                            <input type="text" class="form-control" id="MedicineName" name="MedicineName"
+                                   placeholder="Medicine Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress" class="input__label">Medicine Formula</label>
+                        <input type="text" class="form-control" id="medicine formula" name="MedicineFormula"
+                               placeholder="Formula">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2" class="input__label">Medicine Power</label>
+                        <input type="text" class="form-control" id="Power" name="Power"
+                               placeholder="Medicine Power">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity" class="input__label">Medicine Descreption</label>
+                            <input type="text" class="form-control" id="Descreption" name="Descreption">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState" class="input__label">Medicine Status</label>
+                            <select id="inputState" class="form-control">
+                                <option>Active</option>
+                                <option>Inactive</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-style mt-4">Submit</button>
+                </form>
+                <br />
+                <div class="row">
+                    <table class="table table-responsive table table-bordered" style="width:100%;display:inline-table">
+                        <thead style="background:#4755AB;color:white ">
+
+                        <th>Category</th>
+                        <th>Medicine Name</th>
+                        <th>Medicine Formula</th>
+                        <th>Medicine Power</th>
+                        <th>Medicine Description</th>
+                        <th>Medicine Status</th>
+                        <th>AddedBy</th>
+                        <th>AddedOn</th>
+                        </thead>
+                        <tbody>
+                            @if (ViewBag.data != null)
+                            {
+                                foreach (var items in ViewBag.data)
+                                {
+                                    <tr>
+
+                                        <td>@items.MedicineCat</td>
+                                        <td>@items.MedicineName</td>
+                                        <td>@items.MedicineFormula</td>
+                                        <td>@items.Power</td>
+                                        <td>@items.Descreption</td>
+                                        <td>@items.MedicineStatus</td>
+                                        <td>@items.AddedBy</td>
+                                        <td>@items.AddedOn</td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- //forms 2 -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="~/content/MedicinreMaster.js"></script>

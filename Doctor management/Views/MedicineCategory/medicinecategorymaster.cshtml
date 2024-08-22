@@ -1,0 +1,116 @@
+﻿@{
+	ViewData["Title"] = "medicinecategorymaster";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model IEnumerable<MedicineCategory>
+<div class="main-content">
+
+	<!-- content -->
+	<div class="container-fluid content-top-gap">
+
+		<!-- breadcrumbs -->
+		<nav aria-label="breadcrumb" class="mb-4">
+			<ol class="breadcrumb my-breadcrumb">
+				<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Forms</li>
+			</ol>
+		</nav>
+		<!-- //breadcrumbs -->
+		<!-- forms -->
+		<section class="forms">
+			<div class="card card_border py-2 mb-4">
+				<div class="card-body">
+					<form action="medicinecategorymaster" method="post">
+
+
+
+
+						<div class="form-row ">
+							<div class="form-group col-md-4">
+								<label for="inputEmail4" class="input__label">Category Name</label>
+
+
+								<input type="text" value='@ViewBag.CategoryName' class="form-control input-style" id="category" name="CategoryName" placeholder="category name" />
+								<input type="hidden" value="@ViewBag.MedicineCategoryId" name="MedicineCategoryId" />
+							</div>
+							<div class="form-group col-md-4">
+								<label for="inputPassword4" class="input__label">Description</label>
+								<input type="text" value='@ViewBag.description' class="form-control input-style" name="Descreption" id="description"
+									   placeholder="Description">
+							</div>
+
+							<div class="form-group col-md-4">
+								<label for="inputAddress" class="input__label">Status</label>
+								<select class="form-control" name="Status" id="ddlStatus">
+									<option value="0">Select</option>
+									<option value="1">Active</option>
+									<option value="2">Inactive</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="row" style="display:block; text-align:center">
+							<button type="submit" class="btn btn-primary btn-style mt-4" onclick="return medicinevalidation()">@ViewBag.BtnText</button>
+							<button type="submit" class="btn btn-danger btn-style mt-4">Reset</button>
+						</div>
+					</form>
+
+
+					<br />
+					<div class="row">
+						<table class="table table-responsive table table-bordered" style="width:100%;display:inline-table">
+							<thead style="background:#4755AB;color:white">
+
+							<th>Category Name</th>
+							<th>Descreption</th>
+							<th>AddedBy</th>
+							<th>AddedOn</th>
+							<th>Status</th>
+							<th>Edit</th>
+							<th>Delete</th>
+							</thead>
+							<tbody>
+
+								@if (Model != null)
+								{
+									foreach (var items in Model)
+									{
+										<tr>
+											<td>@items.CategoryName</td>
+											<td>@items.Descreption</td>
+											<td>@items.AddedBy</td>
+											<td>@items.AddedOn</td>
+											<td>@items.CategoryStatus</td>
+											<td>
+												@Html.ActionLink("", "medicinecategorymaster", "MedicineMaster", new { MedicineCategoryId = @items.MedicineCategoryId }, new { @class = "fa fa-edit" })
+
+											</td>
+											<td><i class="fa fa-trash" style="font-size:16px;color:red"></i></td>
+										</tr>
+									}
+								}
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+</div>
+<!-- //forms 2 -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="~/content/fieldvalidation.js"></script>
+
+<script type="text/javascript">
+	var Status = @ViewBag.isactive
+		if (Status == "1") {
+		document.getElementById("ddlStatus").value = "1";
+
+	}
+	if (Status == "2") {
+		document.getElementById("ddlStatus").value = "2";
+
+	}
+
+</script>

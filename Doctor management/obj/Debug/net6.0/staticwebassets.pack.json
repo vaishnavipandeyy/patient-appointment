@@ -1,0 +1,589 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\css\\style-starter.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style-starter.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\Preloader_11.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\Preloader_11.gif"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\avatar1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar1.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\avatar2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar2.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\avatar3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar3.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\avatar4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar4.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\avatar5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar5.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\avatar6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar6.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\avatar7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar7.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\cart.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cart.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\content.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\content.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\dashboard.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\dashboard.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\desk.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\desk.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\down.png",
+      "PackagePath": "staticwebassets\\assets\\images\\down.png"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\people1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\people1.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\people2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\people2.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\people3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\people3.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\people4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\people4.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\profileimg-big.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\profileimg-big.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\profileimg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\profileimg.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sort_asc.png"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sort_both.png"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sort_desc.png"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\team.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\team2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team2.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\team3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team3.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\team4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team4.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\template1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\template1.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\images\\template2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\template2.jpg"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\js\\bar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bar.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\js\\jquery-1.10.2.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-1.10.2.min.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\js\\jquery.nicescroll.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.nicescroll.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\js\\linechart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\linechart.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\js\\modernizr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\modernizr.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\assets\\js\\utils.js",
+      "PackagePath": "staticwebassets\\assets\\js\\utils.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\content\\Login.js",
+      "PackagePath": "staticwebassets\\content\\Login.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\content\\MedicinreMaster.js",
+      "PackagePath": "staticwebassets\\content\\MedicinreMaster.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\content\\PatientAppointment.js",
+      "PackagePath": "staticwebassets\\content\\PatientAppointment.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\content\\Validation.js",
+      "PackagePath": "staticwebassets\\content\\Validation.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\content\\fieldvalidation.js",
+      "PackagePath": "staticwebassets\\content\\fieldvalidation.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\content\\select2.css",
+      "PackagePath": "staticwebassets\\content\\select2.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\content\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\content\\select2.full.min.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\content\\signup.js",
+      "PackagePath": "staticwebassets\\content\\signup.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\css\\font.css",
+      "PackagePath": "staticwebassets\\css\\font.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\css\\jqvmap.css",
+      "PackagePath": "staticwebassets\\css\\jqvmap.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\css\\lightbox.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\css\\minimal.css",
+      "PackagePath": "staticwebassets\\css\\minimal.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\css\\monthly.css",
+      "PackagePath": "staticwebassets\\css\\monthly.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\css\\morris.css",
+      "PackagePath": "staticwebassets\\css\\morris.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\css\\style-responsive.css",
+      "PackagePath": "staticwebassets\\css\\style-responsive.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\jquery.dcjqaccordion.2.7.js",
+      "PackagePath": "staticwebassets\\js\\jquery.dcjqaccordion.2.7.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\jquery.fileupload.js",
+      "PackagePath": "staticwebassets\\js\\jquery.fileupload.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\jquery.nicescroll.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nicescroll.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\jquery.scrollTo.js",
+      "PackagePath": "staticwebassets\\js\\jquery.scrollTo.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\js\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\jquery.vmap.asia.js",
+      "PackagePath": "staticwebassets\\js\\jquery.vmap.asia.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\jquery.vmap.australia.js",
+      "PackagePath": "staticwebassets\\js\\jquery.vmap.australia.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\jquery.vmap.europe.js",
+      "PackagePath": "staticwebassets\\js\\jquery.vmap.europe.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\jquery.vmap.js",
+      "PackagePath": "staticwebassets\\js\\jquery.vmap.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\jquery.vmap.sampledata.js",
+      "PackagePath": "staticwebassets\\js\\jquery.vmap.sampledata.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\jquery.vmap.world.js",
+      "PackagePath": "staticwebassets\\js\\jquery.vmap.world.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\jquery2.0.3.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery2.0.3.min.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\lightbox-plus-jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\lightbox-plus-jquery.min.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\monthly.js",
+      "PackagePath": "staticwebassets\\js\\monthly.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\morris.js",
+      "PackagePath": "staticwebassets\\js\\morris.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\raphael-min.js",
+      "PackagePath": "staticwebassets\\js\\raphael-min.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\git\\DoctorManagement\\Doctor management\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Doctor management.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Doctor management.props",
+      "PackagePath": "build\\Doctor management.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Doctor management.props",
+      "PackagePath": "buildMultiTargeting\\Doctor management.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Doctor management.props",
+      "PackagePath": "buildTransitive\\Doctor management.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

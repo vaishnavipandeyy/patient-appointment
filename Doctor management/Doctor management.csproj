@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Doctor_management</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\css\style-starter.css" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\assets\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\assets\images\avatar1.jpg" />
+    <None Include="wwwroot\assets\images\avatar2.jpg" />
+    <None Include="wwwroot\assets\images\avatar3.jpg" />
+    <None Include="wwwroot\assets\images\avatar4.jpg" />
+    <None Include="wwwroot\assets\images\avatar5.jpg" />
+    <None Include="wwwroot\assets\images\avatar6.jpg" />
+    <None Include="wwwroot\assets\images\avatar7.jpg" />
+    <None Include="wwwroot\assets\images\cart.jpg" />
+    <None Include="wwwroot\assets\images\content.jpg" />
+    <None Include="wwwroot\assets\images\dashboard.jpg" />
+    <None Include="wwwroot\assets\images\desk.jpg" />
+    <None Include="wwwroot\assets\images\down.png" />
+    <None Include="wwwroot\assets\images\logo.png" />
+    <None Include="wwwroot\assets\images\people1.jpg" />
+    <None Include="wwwroot\assets\images\people2.jpg" />
+    <None Include="wwwroot\assets\images\people3.jpg" />
+    <None Include="wwwroot\assets\images\people4.jpg" />
+    <None Include="wwwroot\assets\images\Preloader_11.gif" />
+    <None Include="wwwroot\assets\images\profileimg-big.jpg" />
+    <None Include="wwwroot\assets\images\profileimg.jpg" />
+    <None Include="wwwroot\assets\images\sort_asc.png" />
+    <None Include="wwwroot\assets\images\sort_both.png" />
+    <None Include="wwwroot\assets\images\sort_desc.png" />
+    <None Include="wwwroot\assets\images\team.jpg" />
+    <None Include="wwwroot\assets\images\team2.jpg" />
+    <None Include="wwwroot\assets\images\team3.jpg" />
+    <None Include="wwwroot\assets\images\team4.jpg" />
+    <None Include="wwwroot\assets\images\template1.jpg" />
+    <None Include="wwwroot\assets\images\template2.jpg" />
+    <None Include="wwwroot\assets\js\bar.js" />
+    <None Include="wwwroot\assets\js\bootstrap.min.js" />
+    <None Include="wwwroot\assets\js\Chart.min.js" />
+    <None Include="wwwroot\assets\js\jquery-1.10.2.min.js" />
+    <None Include="wwwroot\assets\js\jquery-3.3.1.min.js" />
+    <None Include="wwwroot\assets\js\jquery.nicescroll.js" />
+    <None Include="wwwroot\assets\js\linechart.js" />
+    <None Include="wwwroot\assets\js\modernizr.js" />
+    <None Include="wwwroot\assets\js\scripts.js" />
+    <None Include="wwwroot\assets\js\utils.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.17" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+</Project>
